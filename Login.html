@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .personal{
+            width: 350px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+          justify-content: space-around;
+            margin-left: 40%;
+          margin-right: 50%;
+          margin-top: 5%;
+          font-size: 40px;
+          /* align-items: center; */
+
+        }
+        .personal input[type="submit"]{
+            background-color: crimson;
+            border-radius: 10px solid whitesmoke;
+            color: whitesmoke;
+            height: 35px;
+                
+        }
+        a{
+            text-decoration: none;
+            color: crimson;
+            margin-right: 40px;
+            font-size: 20px;
+            
+           
+        }
+        #i{
+            color:crimson;
+            border-radius: 5px white solid;
+
+        }
+        a:hover{
+            color:yellowgreen ;
+        }
+      
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <a href="">Details</a>
+            <a href="">Inventory</a>
+            <a href="">Exit</a>
+           
+            <a href=""><i class="fa-duotone fa-user-secret"></i></a>
+
+            <a href=""><i class="fa-sharp fa-solid fa-house-night"></i></a>
+        
+        </nav>
+    </header>
+   
+  
+    <form class="personal">
+        <h1> Please Log<span id="i">i</span>n</h1>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+  
+        
+    </form>
+    
+</body>
+</html>
